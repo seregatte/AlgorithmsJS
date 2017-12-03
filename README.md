@@ -1,0 +1,51 @@
+# AlgorithmsJS
+
+Some Algorithms written in JavaScript for language studies (PR are welcome)
+
+## Requirements
+
+- NodeJS
+
+## Installation
+
+Clone this repository and inside a root directory run this:
+
+```shell
+$ npm install
+```
+
+## Algorithms
+
+| Name 						          | Solutions 								            | Description 										                  |
+|---------------------------|---------------------------------------|---------------------------------------------------|
+| ReverseString			        | 1 								                    | Reverse a given string            								|       
+
+Dependencies
+------------
+
+None
+
+
+Run tests
+----------------
+
+Inside a root directory run that command:
+
+```shell
+$ npm test
+```
+
+or
+
+```shell
+$ npm run watch
+```
+
+License
+-------
+
+GPL-3.0
+
+Author Information
+------------------
+João Paulo Seregatte <seregatte@gmail.com>
