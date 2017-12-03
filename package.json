@@ -1,0 +1,26 @@
+{
+  "name": "algorithmsjs",
+  "version": "1.0.0",
+  "description": "Some Algorithms written in JavaScript for language studies (PR are welcome)",
+  "main": "algorithms/index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seregatte/AlgorithmsJS.git"
+  },
+  "keywords": [
+    "study"
+  ],
+  "author": "João Paulo Seregatte Costa <seregatte@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/seregatte/AlgorithmsJS/issues"
+  },
+  "homepage": "https://github.com/seregatte/AlgorithmsJS#readme",
+  "dependencies": {
+    "jest": "^21.2.1"
+  }
+}
