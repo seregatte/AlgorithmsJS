@@ -38,6 +38,12 @@ $ npm test
 or
 
 ```shell
+$ make
+```
+
+or
+
+```shell
 $ npm run watch
 ```
 
