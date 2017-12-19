@@ -18,7 +18,8 @@ $ npm install
 
 | Name 						          | Solutions 								            | Description 										                  |
 |---------------------------|---------------------------------------|---------------------------------------------------|
-| ReverseString			        | 3 								                    | Reverse a given string            								|       
+| ReverseString			        | 3 								                    | Reverse a given string            								|
+| Palindrome			        | 2 								                    | If the string is a palindrome            								|       
 
 Dependencies
 ------------
