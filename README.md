@@ -1,4 +1,4 @@
-# AlgorithmsJS
+# AlgorithmsJS - [![Build Status](https://travis-ci.org/seregatte/AlgorithmsJS.svg?branch=master)](https://travis-ci.org/seregatte/AlgorithmsJS)
 
 Some Algorithms written in JavaScript for language studies (PR are welcome)
 
