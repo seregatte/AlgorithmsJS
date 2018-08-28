@@ -15,7 +15,7 @@ services:
 script:
 - |
   if [[ "$TRAVIS_OS_NAME" == 'linux' && -n "$NODEVER" ]]; then
-    printf "FROM golang:${NODEVER}-alpine\nWORKDIR /code\nRUN apk add --update make\nENTRYPOINT []\nRUN npm install\nCMD [\"make\"]" > Dockerfile
+    printf "FROM node:${NODEVER}-alpine\nWORKDIR /code\nRUN apk add --update make\nENTRYPOINT []\nRUN npm install\nCMD [\"make\"]" > Dockerfile
     docker build --tag tester:${NODEVER}-alpine .
     docker run -it -v `pwd`:/code tester:${NODEVER}-alpine
   fi
